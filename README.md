@@ -33,10 +33,10 @@ System Requirements:
 Configuration Instructions:
 	1. Upload files to your Magento installation.
 	2. Go to your Magento administration. System -> Configuration then Payment Methods, in the left menu. You may need to clear the store cache before WalletBit/Bitcoins shows up.
-	4. In WalletBit.com IPN https://walletbit.com/businesstools/IPN Enter this link http://YOUR_MAGENTO_URL/index.php/walletbit_callback/ in IPN URL
-	5. Enter a strong Security Word in WalletBit IPN.
-	6. In module settings "E-Mail" <- set your WalletBit.com email.
-	7. In module settings "Token" <- copy from WalletBit.com https://walletbit.com/businesstools/IPN "Token"
-	8. In module settings "Security Word" <- Enter the Security Word you created in step 5.
+	3. In WalletBit.com IPN https://walletbit.com/businesstools/IPN Enter this link http://YOUR_MAGENTO_URL/index.php/walletbit_callback/ in IPN URL
+	4. Enter a strong Security Word in WalletBit IPN.
+	5. In module settings "E-Mail" <- set your WalletBit.com email.
+	6. In module settings "Token" <- copy from WalletBit.com https://walletbit.com/businesstools/IPN "Token"
+	7. In module settings "Security Word" <- Enter the Security Word you created in step 4.
 
 	(optional) On-site Payment. Set to "Yes" to embed payment in the checkout page. Set to "No" for redirecting to walletbit.com to complete payment.
