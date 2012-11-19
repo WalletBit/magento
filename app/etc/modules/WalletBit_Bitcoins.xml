@@ -1,0 +1,11 @@
+<config>
+	<modules>
+		<WalletBit_Bitcoins>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends>
+				<Mage_Payment />
+			</depends>
+		</WalletBit_Bitcoins>
+	</modules>
+</config>
